@@ -1,0 +1,8 @@
+pip install -r requirements-optional.txt
+pip install --force-reinstall numpy==1.21.1
+
+Table of Featurizers
+https://hackingmaterials.lbl.gov/matminer/featurizer_summary.html
+
+
+https://www.youtube.com/watch?v=AwrIK4rW6mU

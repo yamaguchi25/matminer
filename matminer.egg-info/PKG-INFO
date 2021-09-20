@@ -1,3 +1,29 @@
+Metadata-Version: 2.1
+Name: matminer
+Version: 0.7.4
+Summary: matminer is a library that contains tools for data mining in Materials Science
+Home-page: https://github.com/hackingmaterials/matminer
+Author: Anubhav Jain
+Author-email: anubhavster@gmail.com
+License: modified BSD
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Other/Nonlisted Topic
+Classifier: Topic :: Scientific/Engineering
+Provides-Extra: MPDS
+Provides-Extra: dscribe
+Provides-Extra: MDF-forge
+Provides-Extra: AFLOW
+Provides-Extra: Citrine
+License-File: LICENSE
+
 # <img alt="matminer" src="docs_rst/_static/matminer_logo_small.png" width="300">
 
 matminer is a library for performing data mining in the field of materials science.
@@ -29,3 +55,5 @@ Matminer helps users apply methods and data sets developed by the community. Ple
 - If you use one or more **datasets** accessed through matminer, check the dataset metadata info for relevant citations on the original datasets.
 - If you use one or more **data retrieval methods**, check ``citations()`` method of the data retrieval class. This method will provide a list of BibTeX-formatted citations for that featurizer, making it easy to keep track of and cite the original publications.
 - If you use one or more **featurizers**, please take advantage of the ```citations()``` function present for every featurizer in matminer. 
+
+
